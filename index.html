@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+  <title>AyudaTEC</title>  
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="normalize.css">
+  <style>
+    body{
+      margin: 0;
+      font-family: 'Source Sans Pro' , sans-serif;
+      background-color: #FFF;
+      
+      
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+      font-family: 'Arial', sans-serif;
+      font-weight: normal;
+    }
+
+    figure{
+      margin: 0;
+      padding-left: 15px;
+    }
+
+    .header{
+      display: grid;
+      grid-template-columns: 220px minmax(300px,650px) minmax(100px,300px);   
+      grid-template-rows: 80px;   
+      background-color: #1c3643;
+      color: white;
+      align-items: center;
+      
+      
+    }
+
+    .logo img{
+      max-width: 100%;      
+      
+    }
+    
+    a,p,button{
+      margin: 0;    
+      
+    }
+
+    .ensena{            
+      text-align: center;
+      justify-self: end;
+    }
+
+    .ensena a{
+      color: #1c3643;
+      font-weight: bold;      
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .buttonContainer{
+      display: flex;      
+      justify-self: end;
+      
+    }
+
+    .iniciasesion{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .registrate{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .instructor{
+      color: white;
+      text-decoration: none;
+    }
+
+    .iniciasesion button{
+      color: white;
+      display: block;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .registrate button{
+      color: white;
+      display: block;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .landpage{
+      text-align: center;
+      background-color: #fafafa;
+      padding: 140px;
+    }
+
+    h2{
+      font-weight: bold;
+      font-size:3em;
+      margin: 0;
+    }
+
+    .consulta{
+      text-align: center;      
+      padding: 10px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .consulta input{
+      border-radius: 10px;
+      padding: 10px 400px;
+      
+    }
+
+    .consulta img{
+      height: 32px;
+      margin-left: 10px;
+    }
+
+    .cabecera{
+      display: flex;
+      justify-content: space-around;
+      background-color: #1e90ff;
+      margin-bottom: 30px;
+    }
+
+    h3{
+      font-weight: bold;
+      color: white;
+    }
+
+    .temasContainer{
+      display: grid;
+      grid-template-columns: 50% 50%;   
+      justify-content: center;   
+    }
+
+    .temas{
+      text-decoration: none;
+      text-align: center;
+      margin: 10px;      
+      margin-bottom: 50px;      
+    }
+
+    .temas p{
+      /* border: 1px solid blue; */
+      /* border-radius: 10px; */
+      text-align: center;
+      padding: 15px 0px;
+      font-weight: bold;
+      font-size: 20px;
+      color: grey;
+      box-shadow:0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+      margin: 0 120px;
+    }
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 15px;
+      border-top: 0.5px solid #A1A7B3;
+      font-size: 15px;
+      color: #A1A7B3;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="header">
+    <figure class="logo">
+      <img src="logo_blanco.png" alt="">
+    </figure>
+          <div class="ensena">
+            <a class="instructor" href="">Conviértete en instructor</a>
+          </div>
+          <div class="buttonContainer">
+              <div class="iniciasesion">
+                  <button>Inicia sesión</button>      
+                </div>
+                <div class="registrate">
+                  <button>Regístrate</button>
+                </div>
+          </div>
+          
+    </div>
+    
+  </div>
+  <div class="landpage">
+    <h2>¿Necesitas ayuda sobre algún tema de Tecnología?</h2>
+  </div>
+  
+  <div class="consulta">
+    <input type="text" placeholder="Escribe tu pregunta">
+    <img src="loupe.png" alt="">
+  </div>
+    <div class="cabecera">
+      <h3>Contacta instructores al instante!</h3>
+      <h3>Te ayudamos a resolver consultas de bases de datos, reporting, desarrollo web y más.</h3>       
+    </div>
+    <div class="temasContainer">
+    <a href="" class="temas">
+      <p>Bases de datos SQL</p>
+      
+    </a>
+    <a href="" class="temas">
+      <p>Tableau Desktop & Server</p>
+    </a>
+    <a href="" class="temas">
+      <p>SSIS (Microsoft Integration Services)</p>
+    </a>
+    <a href="" class="temas">
+      <p>Power BI</p>
+    </a>
+    <a href="" class="temas">
+      <p>Desarrollo Web - FrontEnd</p>
+      </a>
+      <a href="" class="temas">
+        <p>Backend - Python</p>
+        </a>
+      </div>
+ 
+  <footer class="footer">
+    <div class="copyright">
+      AyudaTEC Online - Derechos de autor - 2019 
+    </div>
+    <div class="opciones">
+      Designed by @lecp
+    </div>
+  </footer>
+</body>
+</html>
