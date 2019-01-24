@@ -1,0 +1,200 @@
+
+    body{
+      margin: 0;
+      font-family: 'Source Sans Pro' , sans-serif;
+      background-color: #FFF;
+      
+      
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+      font-family: 'Arial', sans-serif;
+      font-weight: normal;
+    }
+
+    figure{
+      margin: 0;
+      padding-left: 15px;
+    }
+
+    .header{
+      display: grid;
+      grid-template-columns: 220px minmax(300px,650px) minmax(100px,300px);   
+      grid-template-rows: 80px;   
+      background-color: #1c3643;
+      color: white;
+      align-items: center;
+      
+      
+    }
+
+    .logo img{
+      max-width: 100%;      
+      
+    }
+    
+    a,p,button{
+      margin: 0;    
+      
+    }
+
+    .ensena{            
+      text-align: center;
+      justify-self: end;
+    }
+
+    .ensena a{
+      color: #1c3643;
+      font-weight: bold;      
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .buttonContainer{
+      display: flex;      
+      justify-self: end;
+      
+    }
+
+    .iniciasesion{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .registrate{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .instructor{
+      color: white;
+      text-decoration: none;
+    }
+
+    .iniciasesion input{
+      color: white;
+      display: block;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .registrate input{
+      color: white;
+      display: block;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .landpage{
+      text-align: center;
+      background-color: #fafafa;
+      padding: 140px;
+    }
+
+    h2{
+      font-weight: bold;
+      font-size:3em;
+      margin: 0;
+    }
+
+    .consulta{
+      text-align: center;      
+      padding: 10px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .consulta input{
+      border-radius: 10px;
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+      
+    }
+
+    .consulta img{
+      height: 32px;
+      margin-left: 10px;
+    }
+
+    .consulta button{
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #1e90ff;
+      margin: 0 5px;
+    }
+
+    .preguntaAvanzada{
+      text-align: center;
+    }
+
+    .preguntaAvanzada input{
+      color: white;      
+      background-color: #1e90ff;
+      border-radius: 5px;
+      padding: 10px;      
+    }
+
+    .guia{
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .cabecera{
+      display: flex;
+      justify-content: space-around;
+      background-color: #1e90ff;
+      margin-bottom: 30px;
+    }
+
+    h3{
+      font-weight: bold;
+      color: white;
+    }
+
+    .temasContainer{
+      display: grid;
+      grid-template-columns: 50% 50%;   
+      justify-content: center;   
+    }
+
+    .temas{
+      text-decoration: none;
+      text-align: center;
+      margin: 10px;      
+      margin-bottom: 50px;      
+    }
+
+    .temas p{
+      /* border: 1px solid blue; */
+      /* border-radius: 10px; */
+      text-align: center;
+      padding: 15px 0px;
+      font-weight: bold;
+      font-size: 20px;
+      color: grey;
+      box-shadow:0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+      margin: 0 120px;
+    }
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 15px;
+      border-top: 0.5px solid #A1A7B3;
+      font-size: 15px;
+      color: #A1A7B3;
+    }
+
+    
+  

@@ -1,0 +1,121 @@
+
+    body{
+      margin: 0;
+      font-family: 'Source Sans Pro' , sans-serif;
+      background-color: #FFF;
+      
+      
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+      font-family: 'Arial', sans-serif;
+      font-weight: normal;
+    }
+
+    figure{
+      margin: 0;
+      padding-left: 15px;
+    }
+
+    .header{
+      display: grid;
+      grid-template-columns: 220px minmax(300px,650px) minmax(100px,300px);   
+      grid-template-rows: 80px;   
+      background-color: #1c3643;
+      color: white;
+      align-items: center;
+      
+      
+    }
+
+    .logo img{
+      max-width: 100%;      
+      
+    }
+    
+    a,p,button{
+      margin: 0;    
+      
+    }
+
+    .ensena{            
+      text-align: center;
+      justify-self: end;
+    }
+
+    .ensena a{
+      color: #1c3643;
+      font-weight: bold;      
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .buttonContainer{
+      display: flex;      
+      justify-self: end;
+      
+    }
+
+    .iniciasesion{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .registrate{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .instructor{
+      color: white;
+      text-decoration: none;
+    }
+
+    .iniciasesion button{
+      color: white;
+      display: block;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .registrate button{
+      color: white;
+      display: block;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    
+
+    h2{
+      font-weight: bold;
+      font-size:3em;
+      margin: 0;
+    }
+
+
+    #cardContainer{
+      margin: 20px;
+    }
+    
+
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 15px;
+      border-top: 0.5px solid #A1A7B3;
+      font-size: 15px;
+      color: #A1A7B3;
+    }
+
+    
+  
